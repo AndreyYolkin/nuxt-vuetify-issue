@@ -1,0 +1,16 @@
+{
+  "extends": "./.nuxt/tsconfig.json",
+  "compilerOptions": {
+    "baseUrl": ".",
+    "types": [
+      "node"
+    ],
+  },
+  "vueCompilerOptions": {
+    "target": 2.7,
+    "experimentalTemplateCompilerOptions": {
+      "compatConfig": { "Mode": 2 }
+    }
+  },
+  "exclude": ["node_modules", ".nuxt", "dist", ".output"]
+}
